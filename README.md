@@ -1,4 +1,4 @@
-# 🇮🇳 Indian Election Result SQL Project
+## Indian Election Result SQL Project
 
 This project presents a comprehensive **SQL-based analysis of Indian General Election Results**. It focuses on extracting insights such as the number of seats won by political alliances (NDA, I.N.D.I.A., Others), performance of individual parties, voting patterns (EVM vs Postal), and constituency-level details.
 
