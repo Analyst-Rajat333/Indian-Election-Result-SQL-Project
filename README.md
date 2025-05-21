@@ -11,10 +11,10 @@ The project uses the following tables:
 | Table Name                | Key Columns Used                              |
 |---------------------------|-----------------------------------------------|
 | `States`                 | State_Id, State                                |
-| `Orders`                 | Order_ID, Order_Date, Order_Time               |
-| `Constituencywise_Results` | Constituency_ID, Constituency_Name, Party_ID, Parliament_Constituency |
-| `Partywise_Results`      | Party_ID, Party, Won, Party_Alliance           |
-| `Constituencywise_Details` | Candidate, EVM_Votes, Postal_Votes, Total_Votes, Constituency_ID |
+| `Statewise_Results`      | Cons_No, Constituency, Leading_Candidate, Margin, Parliament_Constituency, State, State_Id, Status, Trailing_Candidate |
+| `Constituencywise_Results` | Constituency_ID, Constituency_Name, Margin, Party_ID, Parliament_Constituency, S_No. Winning_Candidate |
+| `Partywise_Results`      | Party_ID, Party, Won |
+| `Constituencywise_Details` | Candidate, Constituency_ID, EVM_Votes, Party, Percent_of_Votes, Postal_Votes, S_No, Total_Votes |
 
 ---
 
